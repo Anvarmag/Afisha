@@ -6,7 +6,7 @@ import tech.itpark.manager.FilmManager;
 public class Main {
     public static void main(String[] args) {
         FilmManager manager = new FilmManager();
-        Film film1 = new Film(
+        manager.add(new Film(
                 1,
                 "Пара из будущего",
                 7.1,
@@ -15,7 +15,7 @@ public class Main {
                 "Ссылка на фильм",
                 "Лайк",
                 "Наличие билетов");
-        Film film2 = new Film(
+        manager.add(new Film(
                 2,
                 "Райя и последний дракон",
                 7.8,
@@ -24,7 +24,7 @@ public class Main {
                 "Ссылка на фильм",
                 "Лайк",
                 "Наличие билетов");
-        Film film3 = new Film(
+        manager.add(new Film(
                 3,
                 "Батя",
                 7.3,
