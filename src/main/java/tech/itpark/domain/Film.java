@@ -12,6 +12,6 @@ public class Film {
     private long timestamp;
     private String image;
     private String url;
-    private boolean like;
-    private boolean availability;
+    private boolean liked;
+    private boolean available;
 }
